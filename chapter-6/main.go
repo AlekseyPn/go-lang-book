@@ -40,4 +40,20 @@ func main() {
 	slice4 := make([]int, 2)
 	copy(slice4, slice3)
 	fmt.Println(slice4, slice3)
+
+	// Карты(ассоциативный массив или словарь)
+
+	map1 := make(map[string]int)
+
+	map1["key"] = 10
+
+	fmt.Println(map1["key"])
+
+	map2 := make(map[int]int)
+
+	map2[1] = 10
+
+	fmt.Println(map2[1])
+
+	delete(map2, 1)
 }
